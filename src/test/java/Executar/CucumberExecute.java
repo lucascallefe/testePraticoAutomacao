@@ -13,11 +13,13 @@ import io.cucumber.junit.CucumberOptions;
 			dryRun=false,
 			monochrome=true,
 			strict = false,
-			plugin= {"pretty", "html:test-output"}
-			
+			plugin = {
+					"pretty",
+					"html:src/test/resources/relatorios/cucumber-reports/",
+					"json:src/test/resources/relatorios/cucumber-reports/cucumber.json",
+					"junit:src/test/resources/relatorios/cucumber-reports/cucumber-reports/Cucumber.xml" }
+		
 			)
-
-
 
 public class CucumberExecute {
 	

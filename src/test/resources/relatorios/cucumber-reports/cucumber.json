@@ -1,0 +1,441 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1657199000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que acesso o sistema \"http://www.newtours.demoaut.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.newtours.demoaut.com/\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.stepDefinition.que_acesso_o_sistema(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179891900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "opto por preencher usuario \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_preencher_usuario(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142799400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "opto por preencher senha \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_preencher_senha(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6146615700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "opto por clicar em Sign-in",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_clicar_em_Sign_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-01T23:37:26.382Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6522989300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.stepDefinition.BeforeClass()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Deve preencher informa��es de reserva",
+        "description": "",
+        "id": "mercury-tours;deve-preencher-informa��es-de-reserva",
+        "after": [
+          {
+            "result": {
+              "duration": 3848595800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.stepDefinition.AfterClass()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51970300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "opto por acessar tela com titulo \"Find a Flight: Mercury Tours: \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Find a Flight: Mercury Tours: \"",
+                  "offset": 33
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_acessar_tela_com_titulo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92946700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "opto por selecionar type \"Round Trip\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Round Trip\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137920800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "opto por selecionar Passenger \"1 \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1 \"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Passenger(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134923500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "opto por selecionar Departing From \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Departing_From(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 246858700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "opto por selecionar On \"December\" e \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"20\"",
+                  "offset": 36
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_On_e(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72957900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "opto por selecionar Arriving In \"Acapulco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acapulco\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Arriving_In(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 259854400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "opto por selecionar Returning \"October\" e \"21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"October\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"21\"",
+                  "offset": 42
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Returning_e(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90944700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "opto por selecionar Service Class \"First Class\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"First Class\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Service_Class(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144917900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "opto por selecionar Arline \"Blue Skies Airlines\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blue Skies Airlines\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_Arline(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 710591600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "opto por continuar",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_continuar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135922500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "opto por selecionar partida \"Blue Skies Airlines$361$271$7:10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blue Skies Airlines$361$271$7:10\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_partida(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151912800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "opto por selecionar retorno \"Blue Skies Airlines$631$273$14:30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blue Skies Airlines$631$273$14:30\"",
+                  "offset": 28
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_selecionar_retorno(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1474154500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "opto por continuar reserva",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_continuar_reserva()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3997100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "opto por verificar se as ecolhas estao corretas",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_verificar_se_as_ecolhas_estao_corretas()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181897900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "opto por prencher primeiro nome \"Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Teste\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_prencher_primeiro_nome(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154909200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "opto por preencher ultimo nome \"Nextel\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nextel\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_preencher_ultimo_nome(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233865300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "opto por preencher numero \"118998038904\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"118998038904\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.stepDefinition.opto_por_preencher_numero(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 890489400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "opto por secure purchase",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_secure_purchase()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93946600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "opto por confirmar numero de voo",
+            "match": {
+              "location": "steps.stepDefinition.opto_por_confirmar_numero_de_voo()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mercury Tours",
+    "description": "  Como usu�ro\n  Quero preencher informa��es\n  Para continuar o processo de reserva",
+    "id": "mercury-tours",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Formulario%20-%20MercuryTours.feature",
+    "tags": []
+  }
+]

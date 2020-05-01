@@ -8,11 +8,11 @@
     Given que acesso o sistema "http://www.newtours.demoaut.com/"
     And opto por preencher usuario "mercury"
     And opto por preencher senha "mercury"
-    Then clicar em entrar
+    Then opto por clicar em Sign-in
 
  
   Scenario: Deve preencher informações de reserva
-    Given opto por acessar tela mercury resevation
+    Given opto por acessar tela com titulo "Find a Flight: Mercury Tours: "
     And opto por selecionar type "Round Trip"
     And opto por selecionar Passenger "1 "
     And opto por selecionar Departing From "London"

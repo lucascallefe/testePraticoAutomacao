@@ -17,6 +17,12 @@ public class ElementosMercury {
 	// *************** Elementos tela Flight Finder ************//
 
 	// ************** Flight Details *****************//
+	
+	private By radioTipoVoo = By.xpath("//input[@name='tripType']");
+	
+	public By getRadioTipoVoo() {
+		return radioTipoVoo;
+	}
 
 	private By selectPassenger = By.xpath("//select[@name='passCount']");
 
@@ -159,6 +165,7 @@ public class ElementosMercury {
 	public By getLblVooConfirmado() {
 		return lblVooConfirmado;
 	}
+	
 
 	// ********** Fim Flight Confirmation ************//
 

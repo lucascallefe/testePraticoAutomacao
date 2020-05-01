@@ -43,11 +43,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "clicar em entrar",
+  "name": "opto por clicar em Sign-in",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.stepDefinition.clicar_em_entrar()"
+  "location": "steps.stepDefinition.opto_por_clicar_em_Sign_in()"
 });
 formatter.result({
   "status": "passed"
@@ -58,11 +58,11 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "opto por acessar tela mercury resevation",
+  "name": "opto por acessar tela com titulo \"Find a Flight: Mercury Tours: \"",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "steps.stepDefinition.por_acessar_tela_mercury_resevation()"
+  "location": "steps.stepDefinition.opto_por_acessar_tela_com_titulo(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

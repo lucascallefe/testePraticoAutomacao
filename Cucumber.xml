@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="31.584">
+    <testcase classname="Mercury Tours" name="Deve preencher informa��es de reserva" time="30.997">
+        <failure message="chrome not reachable&#10;  (Session info: chrome=81.0.4044.129)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'NOTECALLEFE', ip: '192.168.0.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Lucas\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.129, webStorageEnabled: true}&#10;Session ID: 4cc5c9181976db4dfff6da7f22c0bd22" type="org.openqa.selenium.WebDriverException">
+            <![CDATA[Given que acesso o sistema "http://www.newtours.demoaut.com/"...............passed
+And opto por preencher usuario "mercury"....................................passed
+And opto por preencher senha "mercury"......................................passed
+Then opto por clicar em Sign-in.............................................passed
+Given opto por acessar tela com titulo "Find a Flight: Mercury Tours: ".....passed
+And opto por selecionar type "Round Trip"...................................passed
+And opto por selecionar Passenger "1 "......................................passed
+And opto por selecionar Departing From "London".............................passed
+And opto por selecionar On "December" e "20"................................passed
+And opto por selecionar Arriving In "Acapulco"..............................passed
+And opto por selecionar Returning "October" e "21"..........................passed
+And opto por selecionar Service Class "First Class".........................passed
+And opto por selecionar Arline "Blue Skies Airlines"........................passed
+Then opto por continuar.....................................................passed
+And opto por selecionar partida "Blue Skies Airlines$361$271$7:10"..........passed
+And opto por selecionar retorno "Blue Skies Airlines$631$273$14:30".........passed
+Then opto por continuar reserva.............................................passed
+And opto por verificar se as ecolhas estao corretas.........................passed
+And opto por prencher primeiro nome "Teste".................................passed
+And opto por preencher ultimo nome "Nextel".................................passed
+And opto por preencher numero "118998038904"................................passed
+Then opto por secure purchase...............................................passed
+Then opto por confirmar numero de voo.......................................passed
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NOTECALLEFE', ip: '192.168.0.195', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\Lucas\AppData\Loca...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 81.0.4044.129, webStorageEnabled: true}
+Session ID: 4cc5c9181976db4dfff6da7f22c0bd22
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions.deleteAllCookies(RemoteWebDriver.java:694)
+	at steps.stepDefinition.AfterClass(stepDefinition.java:46)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
