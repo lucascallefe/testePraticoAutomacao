@@ -1,6 +1,6 @@
 ## Teste prático de automação - http://www.newtours.demoaut.com/
 
-#### Como executar o cenário ?
+### Como executar o cenário ?
 #### src/test/java > Executar > CucumberExecute.java 
 
 #### ou
