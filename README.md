@@ -1,11 +1,11 @@
 ## Teste prático de automação - http://www.newtours.demoaut.com/
 
 ### Como executar o cenário ?
-#### src/test/java > Executar > CucumberExecute.java 
+#### src/test/java > Executar > CucumberExecute.java > Botão direito do mouse > Run As > 1 JUnit Test
 
 #### ou
 
-#### src/test/java > features > Formulario - MercuryTours.feature
+#### src/test/java > features > Formulario - MercuryTours.feature > Botão direito do mouse > 1 Cucumber Feature
 
 
 ### Feature:
