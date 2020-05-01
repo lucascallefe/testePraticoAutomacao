@@ -1,10 +1,11 @@
+ #enconding: utf-8
  Feature: Mercury Tours
   Como usuáro
   Quero preencher informações
   Para continuar o processo de reserva
   
   Background: 
-    Given que acesso o sistema
+    Given que acesso o sistema "http://www.newtours.demoaut.com/"
     And opto por preencher usuario "mercury"
     And opto por preencher senha "mercury"
     Then clicar em entrar

@@ -1,7 +1,9 @@
 package steps;
 
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.junit.Assert;
@@ -17,16 +19,22 @@ import io.cucumber.java.en.When;
 
 public class stepDefinition extends Elementos.ElementosMercury {
 
+	public LoginPage lp;
+
 	WebDriver driver;
+	Properties configProp;
 
 	String nomeVooPartida;
 	String nomeVooRetorno;
 
 	@Before
-	public void BeforeClass() {
-		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
+	public void BeforeClass() throws IOException {
 
+		System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
+
+		lp = new LoginPage(driver);
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(60, TimeUnit.SECONDS);
@@ -40,21 +48,21 @@ public class stepDefinition extends Elementos.ElementosMercury {
 		// driver = null;
 	}
 
-	@Given("que acesso o sistema")
-	public void que_acesso_o_sistema() {
+	@Given("que acesso o sistema {string}")
+	public void que_acesso_o_sistema(String string) {
 		driver.get("http://www.newtours.demoaut.com/");
 	}
 
 	@Given("opto por preencher usuario {string}")
 	public void opto_por_preencher_usuario(String usuario) {
 
-		driver.findElement(getTxtUser()).sendKeys(usuario);
+		lp.set_username(usuario);
 	}
 
 	@Given("opto por preencher senha {string}")
 	public void opto_por_preencher_senha(String senha) {
 
-		driver.findElement(getTxtSenha()).sendKeys(senha);
+		lp.set_password(senha);
 	}
 
 	@Then("clicar em entrar")

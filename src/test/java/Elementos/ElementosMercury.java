@@ -6,19 +6,7 @@ public class ElementosMercury {
 
 	// *************** Elemento de Login ************//
 
-	private By txtUser = By.xpath("//input[@name='userName']"); // Campo Usuário
-
-	private By txtSenha = By.xpath("//input[@name='password']"); // Campo senha
-
 	private By btnLogin = By.xpath("//input[@value='Login']"); // Botão Sig-in
-
-	public By getTxtUser() {
-		return txtUser;
-	}
-
-	public By getTxtSenha() {
-		return txtSenha;
-	}
 
 	public By getBtnLogin() {
 		return btnLogin;
@@ -163,16 +151,15 @@ public class ElementosMercury {
 	}
 
 	// ************* Fim Book a Flight *****************//
-	
-	//************ Flight Confirmation ************/
+
+	// ************ Flight Confirmation ************/
 
 	private By lblVooConfirmado = By.xpath("//td[@class='frame_header_info']/table/tbody/tr/td/b//b/font");
-		
+
 	public By getLblVooConfirmado() {
 		return lblVooConfirmado;
 	}
 
-	
-	//********** Fim Flight Confirmation ************//
+	// ********** Fim Flight Confirmation ************//
 
 }
